@@ -17,7 +17,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Carelia', serif;
     font-weight: bold;
-    color: #264653; /* Deep Sapphire */
+    color: #264653; 
+    letter-spacing: 0.05em;
 }
 
 /*********** NAVBAR ***********/
@@ -26,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 3rem 2rem;
     width: 100%;
 }
 
@@ -40,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5rem;
     font-family: 'Carelia', serif;
     font-weight: bold;
-    color: #E9E3DA; /* Modern Sandstone */
+    color: 	#F4F4F6; 
 }
 
 .navbar-left p {
