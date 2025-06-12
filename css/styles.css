@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-   background: url('../assets/images/hero-graphic.png') no-repeat center center;
+  background: url('../assets/images/hero-graphic.png') no-repeat center center;
 }
 
 .hero-image-container {
@@ -130,14 +130,14 @@ h1, h2, h3, h4, h5, h6 {
 .hero-image-container h1 {
   font-family: 'Carelia', serif;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 4rem;
   line-height: 1.2;
   letter-spacing: 1px;
 }
 
 /* Subheadline */
 .hero-image-container p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: 'DM Sans', sans-serif;
   max-width: 80%;
   color: #264653;
@@ -195,6 +195,26 @@ h1, h2, h3, h4, h5, h6 {
 /****** ABOUT ME *********/
 .about-section {
   background-image: url('../assets/images/about-me.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+/****** SERVICES *********/
+.services-section {
+  background-image: url('../assets/images/services.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+/****** SERVICES *********/
+.portfolio-section {
+  background-image: url('../assets/images/work1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
